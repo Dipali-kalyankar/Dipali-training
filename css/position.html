@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+    <head>
+     <title> position</title>
+     <style>
+    .parent-element{
+        color:blue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+    
+    }
+    .child-element{
+        background-color: pink;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        padding: 30px;
+    }
+    .main-element{
+        position: static;
+        background-color: aqua;
+        padding: 30px;
+    }
+    .child-element1{
+        position: sticky;
+        background-color: palevioletred;
+        left: 5px;
+        padding: 30px;
+    }
+    .child-element2{
+        position:absolute;
+        background-color: cadetblue;
+        left: 5px;
+        padding: 30px;
+    }
+     </style>
+    </head>
+
+    <body>
+    <div class="parent-element">
+
+      <div class="child-element">
+        Iam first paragragh
+      </div>
+
+      <div class="main-element">
+        I am second paragraph
+      </div>
+      
+      <div class="child-element1">
+        I am third paragraph
+      </div>
+
+      <div class="child-element2">
+        I am fourth paragraph
+      </div>
+
+    </div>
+    </body>
+</html>

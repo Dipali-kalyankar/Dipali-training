@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>javascript</title>
+    </head>
+    <body>
+        <script>
+            /*let a = prompt("enter first number");
+            let b= prompt("enter second number");
+            let c=(parseInt(a)+parseInt(b));
+            alert(c);*/
+            
+            /*function deleterecord(){
+                let confirm1 = confirm("Are sure to deleterecord");
+                if(confirm){
+                    alert("record deleted");
+                }
+                else{
+                    alert("record not deleted");
+                }
+            }*/
+            /*let a= parseInt(prompt('Enter first number'));
+            let b= parseInt(prompt('Enter second number'));
+            let action = prompt('Enter Action');
+            let result;
+            switch(action){
+                case '1':
+                    result = a+b;
+                    alert(result);
+                    break;
+
+                case '2':
+                    result = a-b;
+                    alert(result);
+                    break;
+
+                case '3':
+                    result = a*b;
+                    alert(result);
+                    break;
+
+                case '4':
+                    result = a/b;
+                    alert(result);
+                    break;
+            }*/
+            let a = prompt("Enter First Number");
+            let b = prompt("Enter second Number");
+            let c = prompt("select operation:<br>1. sum 2. minus");
+            let result;
+            switch(c){
+                case '1':
+                result = (parseInt(a)+parseInt(b));
+                break;
+                case '2':
+                result =(parseInt(a)-parseint(b));
+                break
+                default:
+                    result = "No Math operation found";
+            }
+            alert(result);
+
+
+
+
+            /*function dovalidation(){
+                let name = document.getElementById('name').value;
+                if(name==''){
+                    alert("Enter name");
+                    return false;
+                }
+            }*/
+
+           /* function getcube(number){
+                alert(number*number*number);
+            }*/
+
+            /*let number = parseInt(prompt('Enter The Number'));
+            function getcube(number){
+                alert(number*number*number);
+            }*/
+             
+            /*let number = parseInt(prompt('Enter The Number'));
+            function getsquare(number){
+                alert(number*number);
+            }*/
+
+
+
+
+
+          
+        </script>
+        <!--<input type="button" name="abc" value="delete" onclick="deleterecord()">-->
+        <!--<form>
+            <input type="text" name="name" id="name" class="form-input" onblur="dovalidation()">
+        </form>-->
+       <!-- <form>
+            <input type="button" value="click" onclick="getcube(number)"/>
+        </form>-->
+
+         <!--<form>
+            <input type="button" value="click" onclick="getsquare(number)"/>
+        </form>-->
+
+       
+    </body>
+</html>

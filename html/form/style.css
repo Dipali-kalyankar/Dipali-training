@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+}
+body .form {
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+body .form .fieldset {
+  color: aqua;
+}/*# sourceMappingURL=style.css.map */

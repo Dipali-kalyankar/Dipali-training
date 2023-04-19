@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>javascript statement</title>
+        <script>
+            function domath(a,b, action){
+            if(action===1){
+                document.write("output of a and b"+(a+b))
+            }
+             if(action===2){
+                document.write("output of a and b"+(a-b))
+            }
+             if(action===3){
+                document.write("output of a and b"+(a*b))
+            }
+             if(action===4){
+                document.write("output of a and b"+(a/b))
+            }
+            else{
+                document.write("action not found");
+            }
+           } 
+        </script>
+    </head>
+    <body>
+        <button onclick="domath(60,40,1)">+</button>
+        <button onclick="domath(60,40,2)">-</button>
+        <button onclick="domath(60,40,3)">*</button>
+        <button onclick="domath(60,40,4)">/</button>
+        <button onclick="domath(60,40,5)">?</button>
+    </body>
+</html>

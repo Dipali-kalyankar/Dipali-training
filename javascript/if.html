@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript statement</title>
+        <script>
+           /*function domath(a,b, action){
+            if(action===1){
+                document.write("output of a and b"+(a+b))
+            }
+             if(action===2){
+                document.write("output of a and b"+(a-b))
+            }
+             if(action===3){
+                document.write("output of a and b"+(a*b))
+            }
+             if(action===4){
+                document.write("output of a and b"+(a/b))
+            }
+
+           } */
+           /*function domath(a,b, action){
+            if(action===1){
+                document.write("output of a and b"+(a+b))
+            }
+            else if(action===2){
+                  document.write("output of a and b"+(a-b))
+            }
+             else if(action===3){
+                  document.write("output of a and b"+(a*b))
+            }
+             else if(action===4){
+                  document.write("output of a and b"+(a/b))
+            }
+            else{
+                document.write("action not found");
+            }
+            }*/
+
+             function domath(a,b, action){
+                let result;
+                switch(action){
+                case 1:
+                result =(a+b);
+                break;
+                case 2:
+                result =(a-b);
+                break;
+                case 3:
+                result =(a*b);
+                break;
+                case 4:
+                result =(a/b);
+                break;
+                default:
+                    result="not found";
+             }
+             document.write(result);
+            }
+
+
+        </script>
+    </head>
+    <body>
+        <button onclick="domath(60,40,1)">+</button>
+        <button onclick="domath(60,40,2)">-</button>
+        <button onclick="domath(60,40,3)">*</button>
+        <button onclick="domath(60,40,4)">/</button>
+        <button onclick="domath(60,40,5)">?</button>
+
+
+
+    </body>
+</html>

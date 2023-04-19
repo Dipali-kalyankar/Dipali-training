@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+.header{
+    display:flex;
+    background-color: #ddd;
+    padding: 0px;
+
+}
+.nav li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav li a{
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: red;
+    background-color: #000;
+    padding: 10px;
+}
+.container{
+    margin: 0 auto;
+}
+.active{
+    color: green;
+}
+.slider{
+    background-image: url(mgm3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.slider h2{
+    padding: 250px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.footer{
+    position: fixed;
+    text-align: center;
+}
